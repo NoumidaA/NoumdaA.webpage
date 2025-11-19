@@ -22,6 +22,26 @@
       border-bottom: 1px solid #333;
       padding-bottom: 10px;
     }
+    table.cvtable {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    table.cvtable td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      vertical-align: top;
+    }
+    .cvsectioncolor {
+      color: #2a52be; /* blue shade */
+      font-weight: bold;
+    }
+    .chartlabel {
+      font-style: italic;
+      color: #666;
+      margin-top: 4px;
+      display: block;
+    }
     .gallery img {
       width: 150px;
       margin: 10px;
@@ -32,63 +52,119 @@
 </head>
 <body>
   <header>
-  <h1>Noumida A</h1>
-  <p>Postdoctoral Researcher at LEAP Lab, IISc</p>
-  <p>
-    <a href="https://scholar.google.com/citations?hl=en\&user=0QuvJSMAAAAJ" target="_blank" rel="noopener noreferrer">
-      Google Scholar
-    </a> | 
-    <a href="https://www.linkedin.com/in/noumida-a-5b113b15a/" target="_blank" rel="noopener noreferrer">
-      LinkedIn
-    </a>| 
-    <a href="https://huggingface.co/Noumida" target="_blank" rel="noopener noreferrer">
-      HuggingFace
-    </a>
-  </p>
-</header>
+    <h1>Noumida A</h1>
+    <p>Postdoctoral Researcher at LEAP Lab, IISc</p>
+    <p>
+      <a href="https://scholar.google.com/citations?hl=en&user=0QuvJSMAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a> | 
+      <a href="https://www.linkedin.com/in/noumida-a-5b113b15a/" target="_blank" rel="noopener noreferrer">LinkedIn</a> | 
+      <a href="https://huggingface.co/Noumida" target="_blank" rel="noopener noreferrer">HuggingFace</a>
+    </p>
+  </header>
+
   <section id="about">
     <h2>About</h2>
     <p>Hello! I am a postdoctoral researcher at LEAP Lab, IISc working under Dr. Sriram Ganapathy. My research focuses on audio and speech signal processing.</p>
   </section>
 
-<section id="publications">
-  <h2>Publications</h2>
-  <ul>
-    <li>Noumida A & Rajeev Rajan. Analysis of Avian Biphonic Vocalization Using Computational Modelling, Interspeech (2025)</li>
-    <li>Noumida A & Rajeev Rajan. Influence of Oropharyngeal Esophageal Cavity Geometry and Beak Angle on Vocal Tract Resonance of Birds using Computational Modeling, ICASSP (2025)</li>
-    <li>Noumida A & Rajeev Rajan. Multi-label Bird Species Classification from Field Recordings using Mel Graph-GCN Framework, Interspeech (2024)</li>
-    <li>Rajeev Rajan, Noumida A & Others. Diabetic Retinopathy Grading Using Multi-scale Residual Network with Grouped Channel Attention, EUSIPCO 2024</li>
-  </ul>
-  <p>
-    <a href="https://scholar.google.com/citations?hl=en\&user=0QuvJSMAAAAJ" target="_blank" rel="noopener noreferrer">
-      See more on Google Scholar
-    </a>
-  </p>
-</section>
+      
+  <section id="background">
+    <h2>Background</h2>
+    <table class="cvtable">
+      <tr>
+        <td class="cvsectioncolor">June 20 - Oct 31, 2025</td>
+        <td>AI Engineer at ANNAM.AI, Indian Institute of Technology Ropar</td>
+      </tr>
+
+      <tr>
+        <td class="cvsectioncolor">2021-2025</td>
+        <td><strong>Doctor of Philosophy</strong><br/>
+            Thesis submitted on August 26, 2025<br/>
+            Title: Classification and analysis of bird vocalizations using deep learning and computational modelling<br/>
+            Supervisor: Dr. Rajeev Rajan<br/>
+            College of Engineering Trivandrum<br/>
+            A P J Abdul Kalam Technological University, Kerala, India
+        </td>
+      </tr>
+      <tr>
+        <td class="cvsectioncolor">2019-2021</td>
+        <td><strong>Master of Technology in Signal Processing</strong><br/>
+            College of Engineering Trivandrum<br/>
+            A P J Abdul Kalam Technological University, Kerala, India<br/>
+            <span class="chartlabel">CGPA: 9.63 — <strong>MTech College Topper</strong></span>
+        </td>
+      </tr>
+      <tr>
+        <td class="cvsectioncolor">2014-2018</td>
+        <td><strong>Bachelor of Technology in Electronics and Communication</strong><br/>
+            College of Engineering Chengannur<br/>
+            Cochin University of Science and Technology, Kerala, India<br/>
+            <span class="chartlabel">CGPA: 7.93</span>
+        </td>
+      </tr>
+      <tr>
+        <td class="cvsectioncolor">2024</td>
+        <td><strong>Malayalam AI encyclopedia "Nirmithabudhi"</strong><br/>
+            Contributing Author
+        </td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="research-projects">
+    <h2>Research Projects</h2>
+    <table class="cvtable">
+      <tr>
+        <td>
+          - Automatic Speech Recognition<br/>
+          - Bioacoustic Classification<br/>
+          - Mimicking Speech Recognition<br/>
+          - Oktoechoes Classification in Liturgical Music<br/>
+          - Speech Education Tools<br/>
+          - Diabetic Retinopathy Grading
+        </td>
+      </tr>
+    </table>
+  </section>
 
 
-<section id="achievements">
-  <h2>Achievements</h2>
-  <ul>
-    <li>ISCA Travel Grant for INTERSPEECH 2024</li>
-    <li>EURASIP Travel Grants for EUSIPCO 2023 and 2024</li>
-    <li>Qualified GATE Examination 2019 and 2024</li>
-    <li>SERB Travel Grant for ASRU 2023</li>
-    <li>KSCSTE Research Fellowship 2021 (Engineering Sciences by Kerala State Council for Science, Technology & Environment)</li>
-    <li>MTech College Topper (2019-2021)</li>
-    <li>National Symposium & Research Colloquium 2021, IEEE SB GCEK, IEEE Kerala Section, IEEE IA/IE/PELS Jt. Chapter Kerala — Second Position in MTech Category</li>
-    <li>Completed 36 certification courses in Deep Learning and Machine Learning through Coursera (2020)</li>
-  </ul>
-</section>
 
-<section id="gallery">
-  <h2>Gallery</h2>
-  <div class="gallery">
-    <img src="images/interspeech2025.jpg" alt="Interspeech 2025 Presentation" />
-    <img src="images/conference.jpg" alt="Conference Photo" />
-    <img src="images/project_work.png" alt="Project Visuals" />
-  </div>
-</section>
+  <section id="publications">
+    <h2>Publications</h2>
+    <ul>
+      <li>Noumida A & Rajeev Rajan. Analysis of Avian Biphonic Vocalization Using Computational Modelling, Interspeech (2025)</li>
+      <li>Noumida A & Rajeev Rajan. Influence of Oropharyngeal Esophageal Cavity Geometry and Beak Angle on Vocal Tract Resonance of Birds using Computational Modeling, ICASSP (2025)</li>
+      <li>Noumida A & Rajeev Rajan. Multi-label Bird Species Classification from Field Recordings using Mel Graph-GCN Framework, Interspeech (2024)</li>
+      <li>Rajeev Rajan, Noumida A & Others. Diabetic Retinopathy Grading Using Multi-scale Residual Network with Grouped Channel Attention, EUSIPCO 2024</li>
+    </ul>
+    <p>
+      <a href="https://scholar.google.com/citations?hl=en&user=0QuvJSMAAAAJ" target="_blank" rel="noopener noreferrer">
+        See more on Google Scholar
+      </a>
+    </p>
+  </section>
+
+  <section id="achievements">
+    <h2>Achievements</h2>
+    <ul>
+      <li>ISCA Travel Grant for INTERSPEECH 2024</li>
+      <li>EURASIP Travel Grants for EUSIPCO 2023 and 2024</li>
+      <li>Qualified GATE Examination 2019 and 2024</li>
+      <li>SERB Travel Grant for ASRU 2023</li>
+      <li>KSCSTE Research Fellowship 2021 (Engineering Sciences by Kerala State Council for Science, Technology & Environment)</li>
+      <li>MTech College Topper (2019-2021)</li>
+      <li>National Symposium & Research Colloquium 2021, IEEE SB GCEK, IEEE Kerala Section, IEEE IA/IE/PELS Jt. Chapter Kerala — Second Position in MTech Category</li>
+      <li>Completed 36 certification courses in Deep Learning and Machine Learning through Coursera (2020)</li>
+    </ul>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="images/interspeech2025.jpg" alt="Interspeech 2025 Presentation" />
+      <img src="images/conference.jpg" alt="Conference Photo" />
+      <img src="images/project_work.png" alt="Project Visuals" />
+    </div>
+  </section>
 
 </body>
 </html>
